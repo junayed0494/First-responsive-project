@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive flex </title>
+
+    <style>
+        .container {
+            display: flex;
+            gap: 30px;
+        }
+
+
+        .box {
+            background-color: teal;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        @media screen and (max-width:576px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h2> Lets explore flex </h2>
+
+    <div class="container">
+        <div class="box">
+            <h3>box-1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum modi itaque natus eius tenetur
+                consequuntur
+                quaerat vitae, temporibus a cum labore consectetur, minima voluptatum! Vero alias mollitia, earum
+                voluptatibus provident iste! Tempore praesentium dicta dolores facere earum, delectus neque iusto
+                tempora id
+                exercitationem at quaerat quos eaque nemo debitis temporibus nulla soluta unde accusantium veniam
+                architecto
+                ea sunt. Tenetur, quis!</p>
+        </div>
+        <div class="box">
+            <h3>box-2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum modi itaque natus eius tenetur
+                consequuntur
+                quaerat vitae, temporibus a cum labore consectetur, minima voluptatum! Vero alias mollitia, earum
+                voluptatibus provident iste! Tempore praesentium dicta dolores facere earum, delectus neque iusto
+                tempora id
+                exercitationem at quaerat quos eaque nemo debitis temporibus nulla soluta unde accusantium veniam
+                architecto
+                ea sunt. Tenetur, quis!</p>
+        </div>
+    </div>
+</body>
+
+</html>
